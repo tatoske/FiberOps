@@ -1,0 +1,27 @@
+{
+  "name": "fiberops-erp",
+  "version": "1.0.0",
+  "description": "Sistema ERP & Field Service Management para Telecomunicaciones y Redes FTTH",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "dev:server": "npm run dev --workspace=@fiberops/server",
+    "dev:client": "npm run dev --workspace=@fiberops/client",
+    "build": "npm run build --workspaces",
+    "start": "npm run start --workspace=@fiberops/server"
+  },
+  "keywords": [
+    "erp",
+    "telecom",
+    "ftth",
+    "fiber-optic",
+    "field-service",
+    "dispatch",
+    "inventory"
+  ],
+  "author": "FiberOps Core Team",
+  "license": "MIT"
+}
